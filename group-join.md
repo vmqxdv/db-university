@@ -29,4 +29,10 @@ GROUP BY
 ```
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
 ```
+SELECT 
+	COUNT(*) AS 'course_per_degree', `degree_id`
+FROM 
+	`courses`
+GROUP BY
+	`degree_id`
 ```
