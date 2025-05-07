@@ -103,7 +103,7 @@ INNER JOIN
 ```
 6. Selezionare tutti i docenti che insegnano nel Dipartimento di Matematica (54)
 ```
-SELECT 
+SELECT DISTINCT
     teachers.*, departments.name
 FROM
     course_teacher
