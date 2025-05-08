@@ -1,6 +1,7 @@
 # GROUP BY
-```
+
 1. Contare quanti iscritti ci sono stati ogni anno
+```
 SELECT 
     COUNT(*) AS 'enrolment_tot', YEAR(enrolment_date) AS 'enrolment_date'
 FROM 
