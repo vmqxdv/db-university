@@ -30,11 +30,11 @@ GROUP BY
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
 ```
 SELECT 
-    COUNT(*) AS 'course_per_degree', degree_id
+    COUNT(*) AS 'course_per_degree', department_id
 FROM 
-    courses
+    degrees
 GROUP BY
-    degree_id
+    department_id
 ```
   
 # JOIN
